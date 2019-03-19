@@ -1,6 +1,5 @@
 def reverse_each_word(sentence)  
   array=sentence.split(' ')
-  array.collect!{ |x| x.reverse}
-  array.collect # to get past the test ....
-  array.join(' ')
+  reverse_array=array.collect{ |x| x.reverse}
+  reverse_array.join(' ')
 end
