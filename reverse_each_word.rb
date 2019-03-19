@@ -9,6 +9,5 @@ def reverse_each_word(sentence)
   if result[result.length-1]==" "
     result.chop!
   end
-
   result
 end
